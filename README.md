@@ -8,7 +8,7 @@ Instructions
 
 Step 1: Start clair database
 
-docker run -d -p 5432:5432 --name db arminc/clair-db:latestCopy
+docker run -d -p 5432:5432 --name db arminc/clair-db:latest
 
 Wait for a few seconds till the container is initialized
 or
